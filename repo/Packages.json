@@ -6,9 +6,24 @@
       "name": "dockpid",
       "version": "1.0.0",
       "author": "Dora Orak",
+      "maintainer": "Dora Orak",
+      "architecture": "arm64e",
+      "section": "Tweaks",
+      "depends": "mobilesubstrate (>= 0.9.5000)",
       "description": "Displays the process identifier (PID) next to running application labels in the macOS Dock.",
       "downloadURL": "https://raw.githubusercontent.com/doraorak/doraorak.github.io/main/repo/debs/dockpid.deb",
-      "category": "System UI"
+      "category": "System UI",
+      "controlFields": {
+        "Package": "com.doraorak.dockpid",
+        "Name": "dockpid",
+        "Version": "1.0.0",
+        "Architecture": "arm64e",
+        "Author": "Dora Orak",
+        "Maintainer": "Dora Orak",
+        "Section": "Tweaks",
+        "Depends": "mobilesubstrate (>= 0.9.5000)",
+        "Description": "Displays the process identifier (PID) next to running application labels in the macOS Dock."
+      }
     }
   ]
 }
