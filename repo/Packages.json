@@ -1,0 +1,14 @@
+{
+  "name": "TweakInject Official Repo",
+  "packages": [
+    {
+      "packageID": "com.doraorak.dockpid",
+      "name": "dockpid",
+      "version": "1.0.0",
+      "author": "Dora Orak",
+      "description": "Displays the process identifier (PID) next to running application labels in the macOS Dock.",
+      "downloadURL": "https://raw.githubusercontent.com/doraorak/doraorak.github.io/main/repo/debs/dockpid.deb",
+      "category": "System UI"
+    }
+  ]
+}
