@@ -1,53 +1,29 @@
 {
+  "name" : "TweakInject Official Repo",
   "packages" : [
     {
-      "section" : "System",
-      "name" : "PreferenceLoader",
+      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
       "maintainer" : "doraorak",
+      "packageID" : "com.doraorak.preferenceloader",
+      "architecture" : "macos-arm64",
+      "depends" : "mobilesubstrate (>= 0.9.5000)",
+      "version" : "1.0.0",
+      "author" : "doraorak",
+      "sourceRepoName" : "TweakInject Official Repo",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/doraorak.github.io\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
       "controlFields" : {
-        "Version" : "1.0.0",
-        "Name" : "PreferenceLoader",
-        "Architecture" : "macos-arm64",
-        "Section" : "System",
         "Author" : "doraorak",
+        "Version" : "1.0.0",
         "Description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
         "Package" : "com.doraorak.preferenceloader",
-        "Depends" : "mobilesubstrate (>= 0.9.5000)"
+        "Depends" : "mobilesubstrate (>= 0.9.5000)",
+        "Name" : "PreferenceLoader",
+        "Architecture" : "macos-arm64",
+        "Section" : "System"
       },
-      "architecture" : "macos-arm64",
-      "version" : "1.0.0",
-      "depends" : "mobilesubstrate (>= 0.9.5000)",
-      "author" : "doraorak",
-      "sourceRepoName" : "TweakInject Official Repo",
       "category" : "System",
-      "description" : "PreferenceLoader engine for macOS System Settings. In-process PSSpecifier renderer and Theos bundle loader.",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/doraorak.github.io\/main\/repo\/debs\/com.doraorak.preferenceloader.deb",
-      "packageID" : "com.doraorak.preferenceloader"
-    },
-    {
-      "section" : "Utilities",
-      "name" : "dockpid",
-      "maintainer" : "doraorak",
-      "controlFields" : {
-        "Version" : "1.0.0",
-        "Name" : "dockpid",
-        "Architecture" : "darwin-arm64e",
-        "Section" : "Utilities",
-        "Author" : "doraorak",
-        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-        "Package" : "com.doraorak.dockpid",
-        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader"
-      },
-      "architecture" : "darwin-arm64e",
-      "version" : "1.0.0",
-      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
-      "author" : "doraorak",
-      "sourceRepoName" : "TweakInject Official Repo",
-      "category" : "Utilities",
-      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/doraorak.github.io\/main\/repo\/debs\/com.doraorak.dockpid.deb",
-      "packageID" : "com.doraorak.dockpid"
+      "section" : "System",
+      "name" : "PreferenceLoader"
     }
-  ],
-  "name" : "TweakInject Official Repo"
+  ]
 }
