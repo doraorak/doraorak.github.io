@@ -1,6 +1,29 @@
 {
+  "name" : "TweakInject Official Repo",
   "packages" : [
-
-  ],
-  "name" : "TweakInject Official Repo"
+    {
+      "version" : "1.0.0",
+      "depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+      "section" : "Utilities",
+      "downloadURL" : "https:\/\/raw.githubusercontent.com\/doraorak\/doraorak.github.io\/main\/repo\/debs\/com.doraorak.dockpid.deb",
+      "controlFields" : {
+        "Description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+        "Section" : "Utilities",
+        "Package" : "com.doraorak.dockpid",
+        "Name" : "dockpid",
+        "Depends" : "mobilesubstrate (>= 0.9.5000), preferenceloader",
+        "Architecture" : "darwin-arm64e",
+        "Author" : "doraorak",
+        "Version" : "1.0.0"
+      },
+      "description" : "Appends the process ID of each running app to its Dock tile label with configurable styles and live updates.",
+      "packageID" : "com.doraorak.dockpid",
+      "sourceRepoName" : "TweakInject Official Repo",
+      "category" : "Utilities",
+      "maintainer" : "doraorak",
+      "author" : "doraorak",
+      "name" : "dockpid",
+      "architecture" : "darwin-arm64e"
+    }
+  ]
 }
